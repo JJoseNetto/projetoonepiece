@@ -42,7 +42,16 @@ main {
     background: var(--red);
 }
 
+.maininfo div a:hover{
+    background: transparent;
+    border: 1px solid var(--red);
+}
+
 .maininfo div button {
     background: transparent;
     border: 1px solid var(--blue);
+}
+
+.maininfo div button:hover {
+    background: var(--blue)
 }
